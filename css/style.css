@@ -1,0 +1,63 @@
+/* Variables de color */
+:root {
+  --color-blanco: #fff;
+  --color-fondo: #fff;
+  --color-gris: #ccc;
+}
+
+/* Cambiando el color de fondo */
+body {
+  background: var(--color-fondo) !important;
+}
+
+/* Cambiando el color de link */
+.nav-item .nav-link {
+  color: var(--color-blanco);
+}
+
+/* Imagen de fondo de sección principal */
+.principal {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  background-image: url("../imagenes/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#habilidades i {
+  height: 100px;
+  width: 100px;
+}
+
+#proyectos img {
+  height: 300px;
+  object-fit: cover;
+}
+
+#experiencia img
+ {
+  width: 140px;
+}
+
+.iconos-sociales a {
+  width: 40px;
+  height: 40px;
+}
+
+footer .iconos-sociales a {
+  width: 30px;
+  height: 30px;
+}
+
+#cv img {
+  width: 230px;
+}
+
+/* Imagen de fondo de sección Contacto */
+#contacto {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../imagenes/contact-bg.jpeg");
+}
